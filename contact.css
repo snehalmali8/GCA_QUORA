@@ -1,0 +1,108 @@
+
+    .body_contact {
+        /* background: url("images/campus01.jpg") no-repeat center center fixed; */
+        background: linear-gradient(rgba(4, 9, 3, 0.8), rgba(4, 9, 3, 0.8)), url('images/gcoeara.jpg')no-repeat center center/cover;
+
+        background-size: cover;
+        /* background: rgba(0,0,0,1); */
+    }
+
+
+    .contact {
+        background: transparent;
+        /* width: 60%; */
+        display: flex;
+        justify-content: center;
+        border-radius: 20px;
+
+    }
+.contact label{
+    color:black;
+}
+    .contact-form {
+        /* width: 50%; */
+        background-color: rgb(248, 248, 248);
+        width: 60%;
+        /* margin-top: 7%; */
+        padding: 2%;
+        border: 1px solid rgb(15, 160, 218);
+        border-radius: 6px;
+        margin-bottom: 3%;
+
+    }
+
+    .contact-button {
+        background-color: blue;
+        box-shadow: 3px 3px #000033;
+        margin:4px;
+    }
+
+    .reset-button {
+        background-color: red;
+        box-shadow: 3px 3px #000033;
+        margin:4px;
+    }
+
+    .contact-button:hover {
+        /* color: black; */
+        background-color: black;
+        cursor: pointer;
+    }
+
+    .contact-anchor {
+        color: white;
+    }
+
+    .reset-button {
+        background-color: red;
+        box-shadow: 3px 3px #000033;
+    }
+
+    .reset-button:hover {
+        background-color: black;
+        cursor: pointer;
+    }
+
+    .reset-anchor {
+        color: white;
+    }
+
+    .heading_contact {
+        font-size: 2.5rem;
+        font-family: Georgia;
+        text-shadow: 1px 1px white;
+        /* color: crimson; */
+        /* color: #2969f2; */
+        color: #ffff99;
+    }
+
+    @media(max-width: 980px) {
+
+        .contact-form {
+            width: 80%;
+        }
+    }
+
+    @media(max-width: 770px) {
+        .heading_contact {
+            font-size: 2rem;
+        }
+
+    }
+
+    @media(max-width: 478px) {
+        .heading_contact {
+            font-size: 0.8rem;
+        }
+
+        .contact-form {
+            width: 95%;
+        }
+    }
+
+    @media(max-width: 310px) {
+        .heading_contact {
+            font-size: 0.8rem;
+        }
+
+    }

@@ -1,0 +1,41 @@
+    .logo {
+        font-weight: 600;
+        text-shadow: 3px 3px grey;
+        color: yellow;
+        font-size: 1.6rem;
+        /* font-family: cursive; */
+
+    }
+
+    .navbar {
+        /* color: black !important; */
+    }
+
+    .gcaquora_navbar {
+        background: #0c071c !important;
+    }
+
+    .gcaquora_navbar2 .list li a {
+        color: white !important;
+        font-size: 1.1rem !important;
+    }
+
+    .gcaquora_navbar2 .list li a:hover {
+        background: gray !important;
+    }
+
+    .gcaquora_navbar2 .list li a:active {
+        color: lightgray !important;
+        background: gray !important;
+    }
+
+    .form_nav button,
+    input {
+        font-size: 1rem !important;
+    }
+
+    @media(max-width:1044px) {
+        .gcaquora_navbar2 .list li a {
+            font-size: 0.9rem !important;
+        }
+    }
